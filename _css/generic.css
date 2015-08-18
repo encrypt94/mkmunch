@@ -1,0 +1,18 @@
+div.out {
+    border-radius: 50px;
+    width: 717px;
+    height: 1115px;
+    position: relative;
+}
+
+div.in {
+    border-radius: 50px;
+    width: 640px;
+    height: 1040px;
+    position: absolute;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}

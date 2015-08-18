@@ -1,0 +1,67 @@
+body {
+    font-family: Quasimodo™;
+    color: #471700;
+}
+
+div.out {
+    background-color: #471700;;
+}
+
+div.in {
+    background-color: #ffcb99;
+}
+
+.level .name .bad-stuff{
+    text-align: center;
+}
+
+.level {
+    margin: auto;
+    width: 30%;
+    font-size: 30pt;
+}
+
+.name {
+    margin: auto;
+    width: 45%;
+    font-size: 35pt;
+    text-align: center;
+}
+
+.special-cases {
+    font-size: 15pt;
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    padding-top: 2%;
+}
+
+.bad-stuff {
+    font-size: 15pt;
+    text-align: center;
+    position: absolute;
+    top: 89%;
+    width: 90%;
+    left: 6%;
+    right: 6%;
+}
+
+.levels {
+    font-size: 15pt;
+    position: absolute;
+    top: 97%;
+    left: 6%;
+}
+
+.treasures {
+    font-size: 15pt;
+    position: absolute;
+    top: 97%;
+    right: 6%;
+}
+
+.image > img{
+    margin: auto;
+    width: 90%;
+    height: 65%;
+}
