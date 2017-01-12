@@ -29,3 +29,8 @@ cards:
 run rake: `rake generate[./deck.yml]`
 
 Your cards will be available in `_cards`
+
+Fonts
+-----
+
+You can download useful fonts [here](http://lepecorelle.altervista.org/altro/font/)
