@@ -16,7 +16,7 @@ task :generate, [:deck] do |t, args|
       puts "Processing "+card["name"]
       filename = card["name"].downcase.gsub(" ","-")
       File.write("./"+filename+".html", tpl.render(card))
-      `wkhtmltoimage --transparent #{filename}.html _cards/#{filename}.png`
+      `wkhtmltoimage --enable-local-file-access --transparent #{filename}.html _cards/#{filename}.png`
       `convert -trim _cards/#{filename}.png _cards/#{filename}.png`
       File.delete("./"+filename+".html")
     end
