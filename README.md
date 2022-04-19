@@ -3,34 +3,26 @@ mkmunch
 
 Generate printable munchkin cards from YAML description and HTML+CSS template.
 
+Probably you'll not like that ugly and incomplete tool. If you want something better look at:
+Give a look to:
+- [squib](https://squib.rocks/)
+- [cider](https://github.com/oatear/cider)
+
+Requirements
+------------
+
+Just do `gem install --user-install --no-doc liquid` and install `wkhtmltopdf`.
+
 Usage
 -----
 
-Create a deck.yml file
+Take a look to `deck.example.yml`
 
-```yaml
-layout: door
-cards:
- - level: 0
-   name: Noname
-   special-cases: Sadness
-   image: nopic
-   bad-stuff: :/
-   levels: 0
-   treasures: 0
- - level: 1000
-   name: Uber cool name
-   special-cases: Everything is awesome!
-   image: nopic
-   bad-stuff: nope
-   levels: 100
-   treasures: 100
-```
-run rake: `rake generate[./deck.yml]`
+run rake: `rake generate[./deck.examlple.yml]`
 
 Your cards will be available in `_cards`
 
 Fonts
 -----
 
-You can download useful fonts [here](http://lepecorelle.altervista.org/altro/font/)
+Font is not bundled, you can download a munchkin-like font [here](https://fontsgeek.com/fonts/Quasimodo-Regular)
