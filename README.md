@@ -4,7 +4,6 @@ mkmunch
 Generate printable munchkin cards from YAML description and HTML+CSS template.
 
 Probably you'll not like that ugly and incomplete tool. If you want something better look at:
-Give a look to:
 - [squib](https://squib.rocks/)
 - [cider](https://github.com/oatear/cider)
 
